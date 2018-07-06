@@ -5,10 +5,10 @@ function mostrar()
     var porcenDescuento;
     var precioFinal;
 
-    precioIinicial = prompt("Ingrese el precio: ");
+    precioInicial = prompt("Ingrese el precio: ");
     porcenDescuento = prompt("Cargue el porcentaje de descuento: ");
     
-    precioFinal = precioInicial * porcenDescuento / 100;
+    precioFinal = precioInicial - ((precioInicial * porcenDescuento) / 100);
     
     document.getElementById('elPrecioFinal').value = precioFinal;
     
