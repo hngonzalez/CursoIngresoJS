@@ -12,5 +12,4 @@ function mostrar()
     
     document.getElementById('elPrecioFinal').value = precioFinal;
     
-    //El resultado me aparece como NaN
 }
