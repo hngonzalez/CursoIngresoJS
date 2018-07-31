@@ -62,6 +62,7 @@ function mostrar()
 			edadMasBaja = edad;
 		} else if (edad > edadMasAlta) {
 			edadMasAlta = edad;
+			nombreDelMasViejo = nombre;
 		}
 		
 
@@ -75,6 +76,9 @@ function mostrar()
 	document.write("<br>Cantidad de Hombres --> "+contadorHombres);
 	document.write("<br>Cantidad de Hombres --> "+cantidadMayoresDeEdad);
 	document.write("<br>Cantidad de Hombres --> "+cantidadMenoresDeEdad);
+	document.write("<br>Promedio de Edad Mujeres --> "+promedioEdadMujeres);
+	document.write("<br>Promedio de Edad Hombres --> "+promedioEdadHombres);
+	document.write("<br>Promedio de Edad Total --> "+promedioEdadTotal);
 
 
 }
